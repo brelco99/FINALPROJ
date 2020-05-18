@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589811821441.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DFD3D8D4",
+    "lastKnownWriteTime" : 1589777573,
+    "last_content_update" : 1589811821441,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "388896D4",
+        "caption" : "tunes_tab",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=tunes_tab&cache_key=388896D4",
+        "displayedObservations" : 176774,
+        "environment" : "",
+        "expression" : "tunes_tab",
+        "object" : "tunes_tab",
+        "preview" : 0,
+        "totalObservations" : 176774,
+        "variables" : 18
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

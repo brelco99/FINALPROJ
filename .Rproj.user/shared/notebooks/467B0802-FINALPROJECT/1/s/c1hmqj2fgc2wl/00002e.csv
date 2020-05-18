@@ -1,0 +1,29 @@
+"0",""
+"0","tunes_tab <- read_csv(""ultimate-spotify-tracks-db/SpotifyFeatures.csv"")"
+"2","Parsed with column specification:
+cols(
+  genre = [31mcol_character()[39m,
+  artist_name = [31mcol_character()[39m,
+  track_name = [31mcol_character()[39m,
+  track_id = [31mcol_character()[39m,
+  popularity = [32mcol_double()[39m,
+  acousticness = [32mcol_double()[39m,
+  danceability = [32mcol_double()[39m,
+  duration_ms = [32mcol_double()[39m,
+  energy = [32mcol_double()[39m,
+  instrumentalness = [32mcol_double()[39m,
+  key = [31mcol_character()[39m,
+  liveness = [32mcol_double()[39m,
+  loudness = [32mcol_double()[39m,
+  mode = [31mcol_character()[39m,
+  speechiness = [32mcol_double()[39m,
+  tempo = [32mcol_double()[39m,
+  time_signature = [31mcol_character()[39m,
+  valence = [32mcol_double()[39m
+)
+"
+"0","tunes_tab <- na.omit(tunes_tab)"
+"0","tunes_tab <- tunes_tab[!duplicated(tunes_tab$track_id),]"
+"0","tunes_tab$time_signature <- NULL"
+"0","tunes_tab <- tunes_tab[,c(1, 2, 3, 4, 11, 14, 5, 6, 7, 8, 9, 10, 12, 13)]"
+"0","tunes_tab"

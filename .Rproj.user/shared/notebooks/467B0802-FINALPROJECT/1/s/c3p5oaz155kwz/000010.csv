@@ -1,0 +1,4 @@
+"0","tunes_tab %>% "
+"0","  group_by(genre) %>%"
+"0","  count(popularity) %>%"
+"0","  knitr::kable()"
